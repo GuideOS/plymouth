@@ -1,0 +1,2 @@
+# plymouth
+boot-animation
