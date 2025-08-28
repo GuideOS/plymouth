@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+PACKAGE := plymouth-theme-guideos
+
+%:
+	dh $@
+
+override_dh_install:
+	# Erstellen der notwendigen Verzeichnisse
+	mkdir -p debian/$(PACKAGE)/usr/share/doc/$(PACKAGE)
+
+	# Kopieren der Dateien
+	cp LICENSE debian/$(PACKAGE)/usr/share/doc/$(PACKAGE)/LICENSE
+	cp -r usr debian/$(PACKAGE)/
+
+
+	dh_install

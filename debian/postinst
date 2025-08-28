@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+plymouth-set-default-theme -R guideos-bootanimation
+
+
+exit 0
+
