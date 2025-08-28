@@ -1,0 +1,15 @@
+Source: plymouth-theme-guideos
+Section: misc
+Priority: optional
+Maintainer: Actionschnitzel <actionschnitzel@guideos.de>
+Build-Depends: debhelper (>= 9),bash
+Standards-Version: 0.0.1
+Homepage: https://guideos.de
+
+Package: plymouth-theme-guideos
+Architecture: all
+Depends: ${misc:Depends}, bash, libplymouth5, plymouth, plymouth-themes, plymouth-label, plymouth-x11
+Description:
+ Plymouth Theme for GuideOS
+ A simple Plymouth theme for GuideOS, including a boot animation and a shutdown animation.
+
