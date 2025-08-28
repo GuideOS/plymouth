@@ -1,4 +1,6 @@
-# plymouth
+# plymouth    
+
+[![build result](https://build.opensuse.org/projects/home:guideos:trixie/packages/plymouth-theme-guideos/badge.svg?type=default)](https://build.opensuse.org/package/show/home:guideos:trixie/plymouth-theme-guideos)
 
 Plymouth is a software component that displays a graphical boot animation and status messages during system startup. It is commonly used in Linux distributions to make the boot process visually appealing and to provide feedback to the user about the progress. Plymouth runs very early in the boot process and replaces traditional text-based messages with a modern, configurable interface.
 
