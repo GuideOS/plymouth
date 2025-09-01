@@ -1,3 +1,9 @@
+plymouth-theme-guideos (1.1) unstable; urgency=medium
+
+  * Changed: Animation
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Mon, 01 Sep 2025 09:16:18 -0400
+
 plymouth-theme-guideos (1.0) unstable; urgency=medium
 
   * Initial release.
