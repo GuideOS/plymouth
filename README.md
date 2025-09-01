@@ -15,6 +15,22 @@ Plymouth is a software component that displays a graphical boot animation and st
 
 Plymouth is automatically executed when the system starts and usually requires no manual interaction. Themes and settings can be adjusted via configuration files.
 
+## Changing Themes
+
+To change the Plymouth theme, use the following commands:
+
+List available themes:
+```sh
+sudo plymouth-set-default-theme --list
+```
+
+Set a new theme (replace `theme-name` with your chosen theme):
+```sh
+sudo plymouth-set-default-theme -R theme-name
+```
+
+Reboot your system to see the new theme.
+
 ## More Information
 
 Further details about configuration and customization can be found in the official documentation or in the respective theme files.
